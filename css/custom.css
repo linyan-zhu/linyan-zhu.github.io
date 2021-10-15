@@ -97,10 +97,18 @@ h5 {
 
 figure {
     display: inline-block;
-    margin: 20px; /* adjust as needed */
+    margin: 0px; /* adjust as needed */
     text-align: center;
     max-height: 100%;
 }
 figure img {
     vertical-align: top;
+}
+
+.left {
+    width: 300px;
+}
+
+.right {
+    width: 650px;
 }
