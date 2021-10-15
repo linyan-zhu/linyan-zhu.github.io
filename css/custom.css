@@ -93,14 +93,13 @@ figure img {
     vertical-align: top;
 }
 
-
 .left {
     width: 300px;
     padding: 0px 0px 0px 0px;
 }
 
 .right {
-    width: 850px;
+    width: 650px;
     padding: 0px 0px 0px 30px;
 }
 
