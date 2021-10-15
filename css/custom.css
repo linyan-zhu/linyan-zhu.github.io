@@ -84,35 +84,71 @@ h4 {
 }
 
 
-figure {
-    display: inline-block;
-    margin: 20px; /* adjust as needed */
-    text-align: center;
-}
+@media only screen and (min-width: 769px) {
 figure img {
-    vertical-align: top;
+    height: 260px;
 }
-
+.wrapper {
+    display: flex;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0px 10px 0px;
+}
 .left {
     width: 300px;
     padding: 0px 0px 0px 0px;
 }
-
 .right {
     width: 650px;
     padding: 0px 0px 0px 30px;
 }
+}
 
+@media only screen and (max-width: 768px) and (min-width: 541px) {
+    .wrapper {
+        display: flex;
+    }
 
-@media only screen and (max-width: 480px) {
+    .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 20px 0px 10px 0px;
+    }
+
+    .left {
+        width: 30%;
+    }
+    .right {
+        width: 65%;
+        padding: 0px 0px 0px 0px;
+    }
+    figure img {
+        vertical-align: top;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
     .wrapper {
         display: block;
     }
+   .container {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 20px 0px 10px 0px;
+    }
     .left {
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
     }
     .right {
-        width: 100%;
-        padding: 0px 0px 0px 0px;
+        width: 95%;
+        padding: 0px 0px 0px 10px;
+    }
+    figure img {
+        margin: auto;
+        height: 200px;
     }
 }
