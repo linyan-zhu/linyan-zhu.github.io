@@ -62,26 +62,6 @@ html,button,input,select,textarea {
     color: #a00;
 }
 
-.left-col {
-    width: 300px; 
-    float: left; 
-    margin-left:0px;
-}
-
-.right-col {
-    margin-left: 360px;
-}
-
-.right-col p {
-    padding: 0px 0px 0px;
-}
-
-@media only screen and (max-device-width: 480px) {
-    .right-col {
-    margin-left: 0px;
-    width: 300px
-    }
-}
 
 p span {
     display: block;
