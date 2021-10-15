@@ -38,7 +38,7 @@ hr {
 img {
     margin: 10px auto 10px auto;
     max-width: 100%;
-    display: block;
+    display: inline-block;
 }
 
 a img {
@@ -125,12 +125,9 @@ h6 {
     text-align: right;
 }
 
-.container {
-    max-width: 1000px;
-}
 
 ul {
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
 ul.flat {
@@ -164,13 +161,14 @@ ul {
 	color: #000000;
 	text-decoration: none !important;
 	font-weight: 3000;
+
 }
 
-.post ul li {
+.post ul {
     margin-bottom: 10px;
 }
 
-.post ul li p {
+.post ul p {
     display: inline;
 }
 
@@ -197,11 +195,13 @@ pre code {
 }
 
 .container {
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 20px 20px 10px;
 }
 
 .header {
-    padding: 20px 20px 20px;
+    padding: 30px 30px 20px 20px;
 }
 
 .header h1,
@@ -222,7 +222,7 @@ pre code {
 }
 
 .header nav ul,
-.header nav li {
+.header nav {
     margin: 0;
 }
 
@@ -322,7 +322,7 @@ pre code {
 
 .list .posts .post .meta {
     margin-bottom: 0;
-    margin-left: 5px;
+    margin-left: 0px;
 }
 
 .footer {
