@@ -25,13 +25,6 @@ a.btn.disabled, fieldset:disabled a.btn { pointer-events: none; }
 .collapsing { position: relative; height: 0; overflow: hidden; transition: height 0.35s ease; }
 @media (prefers-reduced-motion: reduce) { .collapsing { transition: none; } }
 
-@media only screen and (device-width: 1280px),
-only screen and (max-width:1280px) {
-.css-element {
-display:block:;
-}
-}
-
 .bg-light { background-color: none !important; }
 a.bg-light:hover, a.bg-light:focus, button.bg-light:hover, button.bg-light:focus { background-color: #d5e0ea !important; }
 
@@ -69,6 +62,26 @@ html,button,input,select,textarea {
     color: #a00;
 }
 
+.left-col {
+    width: 300px; 
+    float: left; 
+    margin-left:0px;
+}
+
+.right-col {
+    margin-left: 360px;
+}
+
+.right-col p {
+    padding: 0px 0px 0px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .right-col {
+    margin-left: 0px;
+    width: 300px
+    }
+}
 
 p span {
     display: block;
