@@ -28,14 +28,14 @@ a.btn.disabled, fieldset:disabled a.btn { pointer-events: none; }
 .bg-light { background-color: none !important; }
 a.bg-light:hover, a.bg-light:focus, button.bg-light:hover, button.bg-light:focus { background-color: #d5e0ea !important; }
 
-.p-2 { padding: 0em 0em 0em 1.5rem !important; }
+.p-2 { padding: 0em 0em 0em 0rem !important; }
 .mb-2 { margin-bottom: 0.5rem !important; }
 
 .card { position: relative; display: flex; flex-direction: column; min-width: 0; word-wrap: break-word; background-color: #fff; background-clip: border-box; border: 0px solid rgba(0, 0, 0, 0.125); border-radius: 0rem; }
 
 .card-body { padding: 0rem; }
 
-.card-text:last-child { margin-top:0.5rem; margin-bottom: 0; }
+.card-text:last-child { margin-top:0.5rem; margin-bottom: 0; text-align:justify; font-weight:400; font-size:16px }
 
 .abstract { font-size: 18px; }
 .papertitle { color:#333 ; font-size:18px;}
